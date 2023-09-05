@@ -3,7 +3,7 @@ using AutoNumber.Interfaces;
 using AutoNumber;
 using Azure.Storage.Blobs;
 //var store = new DebugOnlyFileDataStore("C:\\Codes\\AzureAutoNumber\\testblob");
-string connstring = "DefaultEndpointsProtocol=https;AccountName=erissandboxdeveastus;AccountKey=IADmZ4qRk7/GwouuV3Az+0AyiMIrGtdxzDGJu/WMrakXrdQe+QRMR64/E0ueyB0rhpqE0ciKzqgMBNyn4rzqDQ==;EndpointSuffix=core.windows.net";
+string connstring = "DefaultEndpointsProtocol=https;AccountName=erissandboxdeveastus;AccountKey={replace with key};EndpointSuffix=core.windows.net";
 string container = "poc";
 var blobClient =  new BlobServiceClient(connstring);
 
